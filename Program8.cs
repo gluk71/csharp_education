@@ -2,7 +2,7 @@
 int k = 5;
 for (int i = 1; i <= k; i++)
     if (i % 2 == 0)
-        Console.Write(i + ",");
+    Console.Write(i + ",");
 
 int l = 8;
 for (int i = 1; i <= l; i++)

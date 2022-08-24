@@ -1,7 +1,9 @@
 //Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
-void IndexOfint(int[] DayOfWeek,int value)
+void IndexOfint(int value)
 {
+        //                    0  1  2  3  4  5  6
+int[] DayOfWeek = new int[] { 1, 2, 3, 4, 5, 6, 7 };
         int i = Array.IndexOf(DayOfWeek,value);
         //Console.WriteLine(i);
         if (i<=4)
@@ -14,13 +16,11 @@ void IndexOfint(int[] DayOfWeek,int value)
         }
 }
 
-Console.WriteLine("Enter number day of week.....");      //вводим строку а не число
+Console.WriteLine("Enter number day of week.....");      //вводим как строку а не число
 
-var number = Console.ReadLine();
+var number = Console.ReadLine();      //строка
      if(number is null){
             return;
      }
-//                            0  1  2  3  4  5  6
-int[] DayOfWeek = new int[] { 1, 2, 3, 4, 5, 6, 7 };
 
-IndexOfint(DayOfWeek, Convert.ToInt32(number));
+IndexOfint(Convert.ToInt32(number));

@@ -12,6 +12,7 @@
 
         if(number.Length < 3){
             Console.WriteLine("Число очень маленькое!");
+            return;
         }
 
         char[] theArray = number.ToCharArray();      //конвертируем число в массив 

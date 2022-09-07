@@ -23,7 +23,6 @@
                 {
                     if (array[i] > 0)
                     {
-                        //Console.WriteLine(array[i]);
                         c++;
                     }
 
@@ -32,10 +31,10 @@
             }
 
             Console.Write("Input size of array: ");
-            int size = Convert.ToInt32(Console.ReadLine());    //запрашиваем размер массива 
+            int size = Convert.ToInt32(Console.ReadLine());   
             Console.Write("Create new array: ");
-            int[] newArray = createRAndomArray(size);         //заполняем 3х значными числами
-            //printArray(newArray);                             //печатаем массив 
+            int[] newArray = createRAndomArray(size);         
+            //printArray(newArray);                              
 
             Console.WriteLine($"Колмчество четных чисел  - {printNumber(newArray)}");
 

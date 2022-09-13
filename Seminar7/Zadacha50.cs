@@ -27,7 +27,6 @@ int[,] Create2DRandomArray()
                 {
                     for (int j = 0; j < array.GetLength(1); j++)
                     {
-                        //Console.Write(string.Format("{0:F1}", array[i, j]));
                         Console.Write(array[i, j]);
                         Console.Write("\t");
                     }

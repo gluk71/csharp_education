@@ -11,8 +11,7 @@
                 cols = Convert.ToInt32(Console.ReadLine());    //n
                 Console.Write("Input min possible value: ");
                 int minVal = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Input min possible value: ");
+                Console.Write("Input max possible value: ");
                 int maxVal = Convert.ToInt32(Console.ReadLine());
                 int[,] newArray = new int[rows, cols];
                 Random random = new Random();
